@@ -4,26 +4,33 @@ This repo provides an implementation of an Ingress controller for NGINX, and 2 d
 
 ## Resource Involved in this Repo:
 
-1) Deployments:
+#### 1) Deployments: 
 
-a) amazon
-b) flipkart
+* amazon 
 
-2) Service:
+* flipkart
 
-amazon-svc
-flipkart-svc
+#### 2) Services:
 
-3) Ingress Resource 
+* amazon-svc 
 
-4) Ingress controller:
+* flipkart-svc  
 
-a) Namespace
-B) ServiceAccount
-c) Secret
-d) ConfigMap
-e) RBAC
-e) Daemon set
+#### 3) Ingress Resource
+
+#### 4) Ingress controller:
+
+* Namespace 
+
+* ServiceAccount
+
+* Secret
+
+* ConfigMap
+
+* RBAC
+
+* Daemon set
 
 ## What is the Ingress?
 
