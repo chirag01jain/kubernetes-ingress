@@ -1,0 +1,14 @@
+# Expose Flipkart service using ClusterIP
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    svc: flipkart
+  name: flipkart-svc
+spec:
+  ports:
+  - port: 8081
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: flipkart

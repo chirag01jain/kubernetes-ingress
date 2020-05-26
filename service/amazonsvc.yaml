@@ -1,0 +1,14 @@
+# Expose Amazon service using ClusterIP
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    svc: amazon
+  name: amazon-svc
+spec:
+  ports:
+  - port: 8082
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: amazon

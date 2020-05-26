@@ -1,0 +1,21 @@
+#Deployment for Flipkart website using 2 pods and nginx Image
+#-----Default Namespace------- cjain------------
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    deploy: amazon
+  name: amazon
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: amazon
+  template:
+    metadata:
+      labels:
+        app: amazon
+    spec:
+      containers:
+      - image: nginx:1.17.10
+        name: amazon-website
