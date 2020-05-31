@@ -1,5 +1,6 @@
+#Author: Chirag Jain (CJ)
 #Deployment for Flipkart website using 2 pods and nginx Image
-#-----Default Namespace------- cjain------------
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
