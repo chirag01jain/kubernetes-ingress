@@ -1,5 +1,5 @@
-#Deployment for Flipkart website using 2 pods and nginx Image
-#-----Default Namespace------- cjain------------
+#Author: Chirag Jain (CJ)
+#Deployment for Amazon website using 2 pods and nginx Image
 apiVersion: apps/v1
 kind: Deployment
 metadata:
