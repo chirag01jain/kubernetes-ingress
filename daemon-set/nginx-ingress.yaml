@@ -1,3 +1,4 @@
+#Author: Chirag Jain (CJ)
 #DaemonSet: When you run the Ingress Controller by using a DaemonSet, Kubernetes will create an Ingress controller pod on every node of the cluster
 # Hosts Port are exposed at 32500 and 32501 for HTTP and HTTPS respectively.
 apiVersion: apps/v1
